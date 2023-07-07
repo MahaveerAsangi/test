@@ -25,3 +25,6 @@ async def fetch_books(client_request: Request):
 def get_mahaveer():
     response = {'id':1, 'name':'mahaveer', 'address':'LU'}
     return response
+
+if __name__:"__main__":
+    uvicorn.run(app)
