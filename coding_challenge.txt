@@ -1,0 +1,32 @@
+Task:
+=====
+
+Implement a Web application listening at http://localhost:8080/. The application
+serves a single Web page which lists records from the attached books.csv file, in the 
+same order as they are in the file. The file resides on the server side 
+where the application is running.
+
+Each line of the file contains exactly one book record with exactly three fields:
+
+<id>, <title>, <price>
+
+Tip: use a text editor to view the file content.
+
+Rules:
+=====
+
+1. The solution can be written in any programming language, and shall work in a Ubuntu 
+Linux environment. It shall include a README file documenting the commands used to 
+build and run the Web application (the fewer commands the better, Docker commands can 
+be used if needed).
+
+2. The solution shall be delivered as a Zip file containing the source code, 
+configuration files, and any scripts needed to build and run the Web application. 
+Binaries and dependencies shall NOT be included. The zip file must be smaller 
+than 20MB (the smaller the better), named as
+    coding_challenge_FIRST_NAME_LAST_NAME.zip (please replace with your name).
+
+3. Software engineering and clean code best practices will be valued. Pls consider 
+utilizing the time allowed for this.
+
+4. The content of this coding challenge is confidential.
